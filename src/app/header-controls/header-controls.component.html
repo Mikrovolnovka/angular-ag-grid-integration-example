@@ -1,0 +1,7 @@
+<div class="header-controls-wrapper">
+    <div class="toggle-select">
+        <button (click)="toggleMode($event)">{{enabled ? 'Disable' : 'Enable'}} select mode</button>
+    </div> | 
+    <div class="total-records">Total records: {{total || 0}}</div> | 
+    <div class="selected-records">Selected records: {{selected || 0}}</div>
+</div>
